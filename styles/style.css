@@ -397,6 +397,69 @@ article h1 {
     margin-bottom: 30px;
 }
 
+/* further reading section */
+
+#further-reading{
+    width: 100%;
+}
+
+#trending::before {
+    width: 95%;
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 40px 0 12px 0;
+    background-color: black;
+}
+
+#trending {
+    float: right;
+    width: 25%;
+}
+
+#trending a {
+    text-decoration: none;
+    color: black;
+    line-height: 1.25rem;
+    font-family: nyt-cheltenham,georgia,times new roman,times,serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+#trending hr {
+    border: 0.5px solid #e2e2e2;
+    border-style: solid;
+    margin: 15px 0;
+}
+
+#more::before {
+    width: 95%;
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 40px 0 12px 0;
+    background-color: black;
+}
+
+#more {
+    float: left;
+    width: 75%;
+}
+
+#editor-picks::before {
+    width: 95%;
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 40px 0 12px 0;
+    background-color: black;
+}
+
+#editor-picks {
+    float: left;
+    width: 75%;
+}
+
 /* Sidebar */
 
 #sidebar {
@@ -406,7 +469,23 @@ article h1 {
 
 /* Footer */
 
+footer::before {
+    clear: both;
+    width: 100%;
+    content: '';
+    display: block;
+    height: 1px;
+    border-bottom: 1px solid rgb(226,226,226);
+    border-top: 2px solid rgb(226,226,226);
+}
+
 footer {
     width: 1200px;
     margin: 0 auto;
+}
+
+footer img {
+    width: 210px;
+    height: 40px;
+    
 }
