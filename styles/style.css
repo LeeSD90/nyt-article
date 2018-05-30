@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+  	font-size: small;
+  	height: 100%;
+  	margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+/* Header */
+
+header {
+    position: relative;
+    border-bottom: 1px solid #e2e2e2;
+    height: 45px;
+}
+
+/* Container */
+
+#container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/* Article */
+
+article h1 {
+    width: 50%;
+    margin: 50px auto;
+}
+
+.article-image {
+
+}
+
+/* Sidebar */
+
+#sidebar {
+    float: right;
+    height: 100%;
+}
+
+/* Footer */
+
+footer {
+    width: 1200px;
+    margin: 0 auto;
+}
