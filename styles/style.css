@@ -165,7 +165,7 @@ article h1 {
     font-weight: 500;
 }
 
-#article-details .social-toolbar button {
+.social-toolbar button {
     cursor: pointer;
     height: 30px;
     width: 30px;
@@ -173,7 +173,7 @@ article h1 {
     border-style: none;
     border-radius: 150px;
     background-color: #eee;
-    margin-left: 10px;
+    margin-right: 10px;
     font-size: 0.7rem;
 }
 
@@ -200,7 +200,7 @@ article h1 {
 
 .article-content p {
     line-height: 1.6rem;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-family: nyt-imperial,georgia,'times new roman',times,serif;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -358,7 +358,43 @@ article h1 {
     font-style: normal;
     font-family: nyt-franklin,arial,helvetica,sans-serif;
     margin: 0;
+    margin-bottom: 50px;
     color: black;
+}
+
+/* inserts */
+
+.insert {
+    width: 100%;
+}
+
+.insert .image-caption {
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.insert .author {
+    margin: 0;
+    margin-bottom: 50px;
+}
+
+.insert img {
+    max-width: 100%;
+}
+
+/* Article footer */
+
+#article-footer {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#article-footer p {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    line-height: 0.9rem;
+    font-size: 0.64rem;
+    color: #999;
+    margin-bottom: 30px;
 }
 
 /* Sidebar */
