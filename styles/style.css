@@ -235,6 +235,132 @@ article h1 {
     font-size: 85%;
 }
 
+/* Story inserts */
+
+.story {
+   width: 100%;
+}
+
+.story h1 {
+    font-size: 1.15rem;
+    line-height: 1.5rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: cheltenham-normal-700,georgia,times new roman,times,serif;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.story .intro {
+    font-size: .775rem;
+    line-height: 1.125rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: nyt-cheltenham-sh,georgia,times new roman,times,serif;
+    color: #666;
+    margin-bottom: 7px;
+}
+
+.story .images {
+    display: block;
+    position: relative;
+}
+
+.story img {
+    max-width: 100%;
+    height: auto;
+}
+
+.story .txt {
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 300;
+    color: black;
+}
+
+.story .txt-1 {
+    position: absolute;
+    top: 18%;
+    left: 0.2%;
+    width: 145px;
+}
+
+.story .txt-2 {
+    position: absolute;
+    top: 18%;
+    left: 25%;
+    width: 145px;
+}
+
+.story .txt-3 {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    width: 145px;
+}
+
+.story .txt-4 {
+    position: absolute;
+    top: 18%;
+    left: 75%;
+    width: 145px;
+}
+
+.story .txt-5 {
+    position: absolute;
+    top: 65%;
+    left: 0.2%;
+    width: 145px;
+}
+
+.story .txt-6 {
+    position: absolute;
+    top: 65%;
+    left: 25%;
+    width: 145px;
+}
+
+.story .txt-7 {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    width: 145px;
+}
+
+.story .txt-8 {
+    position: absolute;
+    top: 65%;
+    left: 75%;
+    width: 145px;
+}
+
+.story b {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: .05em;
+}
+
+.story .author::before {
+    width: 60px;
+    content: '';
+    display: block;
+    height: 1px;
+    margin: 40px 0 12px 0;
+    background-color: black;
+}
+
+.story .author {
+    display: block;
+    font-size: .875rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+    font-style: normal;
+    font-family: nyt-franklin,arial,helvetica,sans-serif;
+    margin: 0;
+    color: black;
+}
+
 /* Sidebar */
 
 #sidebar {
