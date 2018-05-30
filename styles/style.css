@@ -1,11 +1,10 @@
 * {
     margin: 0;
-    font-family: nyt-cheltenham,georgia,'times new roman',times,serif
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-  	font-size: small;
+    font-size: 115%;
+    font-family: nyt-cheltenham,georgia,'times new roman',times,serif;
   	height: 100%;
   	margin: 0;
     padding: 0;
@@ -125,8 +124,9 @@ article h1 {
 }
 
 .image-caption {
-    width: 65%;
+    width: 75%;
     margin-top: 5px;
+    margin-bottom: 35px;
     font-size: 0.8175rem;
     line-height: 1rem;
     color: #666;
@@ -136,8 +136,103 @@ article h1 {
 
 .author {
     margin-left: 7px;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     color: #999;
+}
+
+/* Article Main */
+
+#article-main {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Article Details */
+
+#article-details {
+    margin-top: 15px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#article-details .date {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    color: #666;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+#article-details .social-toolbar button {
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #eee;
+    border-style: none;
+    border-radius: 150px;
+    background-color: #eee;
+    margin-left: 10px;
+    font-size: 0.7rem;
+}
+
+#article-author {
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+    color: black;
+    line-height: 1rem;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+#article-author a {
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 0.75rem;
+    color: black;
+}
+
+/* Article Content */
+
+.article-content {
+    font-size: 100%;
+}
+
+.article-content p {
+    line-height: 1.6rem;
+    font-size: 1rem;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.article-content p a {
+    text-decoration: underline;
+    color: #326891;
+}
+
+.article-content .subscribe {
+    width: 50%;
+    font-size: 80%;
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.article-content .break-line {
+    border-top: 1px solid #ccc;
+    width: 72px;
+    margin: 18px auto 18px;
+}
+
+.article-content .subscribe a {
+    text-decoration: none;
+    color: #326891;
+}
+
+.article-content .subtitle {
+    font-weight: 700;
+    font-size: 85%;
 }
 
 /* Sidebar */
