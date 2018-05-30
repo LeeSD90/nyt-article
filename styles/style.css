@@ -19,6 +19,82 @@ header {
     height: 45px;
 }
 
+header a {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header nav {
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header img {
+    width: 210px;
+    height: 45px;
+    margin: 0 auto;
+}
+
+header button {
+    padding: 11px 12px 8px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #6288a5;
+    border: 1px solid #326891;
+    font-size: 11px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 7px;
+}
+
+#menu-icon{
+    height: 14px;
+}
+
+#menu-icon img{
+    width: 27px;
+    height: 14px;
+}
+
+#magnifying-glass {
+ font-size: 1.8em; /* This controls the size. */
+ display: inline-block;
+ width: 0.4em;
+ height: 0.4em;
+ border: 0.1em solid black;
+ position: relative;
+ border-radius: 0.35em;
+}
+
+#magnifying-glass::before {
+ content: "";
+ display: inline-block;
+ position: absolute;
+ right: -0.25em;
+ bottom: -0.1em;
+ border-width: 0;
+ background: black;
+ width: 0.35em;
+ height: 0.08em;
+ -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+     -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+}
+
 /* Container */
 
 #container {
